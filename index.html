@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO: o objetivo do site e ser encontrado no Google -->
+  <title>Mercearia do Seu Zé | Produtos coloniais no Centro de Curitiba</title>
+  <meta name="description" content="Mercearia tradicional no Centro de Curitiba desde 1982. Produtos coloniais do interior do Paraná, café moído na hora, hortifruti e atendimento de vizinho. Veja endereço, horários e peça pelo WhatsApp.">
+  <meta name="author" content="Mercearia do Seu Zé">
+  <meta name="theme-color" content="#1f5135">
+  <link rel="canonical" href="https://mercearia-do-seu-ze.com.br/">
+
+  <!-- Dados estruturados: ajudam o Google a exibir endereco e horario direto na busca -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GroceryStore",
+    "name": "Mercearia do Seu Zé",
+    "description": "Mercearia tradicional com produtos coloniais no Centro Histórico de Curitiba desde 1982.",
+    "foundingDate": "1982",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua XV de Novembro, 482 - Loja 2",
+      "addressLocality": "Curitiba",
+      "addressRegion": "PR",
+      "postalCode": "80020-310",
+      "addressCountry": "BR"
+    },
+    "telephone": "+554132221982",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00" }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ===== Variaveis de cor: paleta quente, remete a mercearia tradicional ===== */
+    :root {
+      --verde: #1f5135;
+      --verde-claro: #2f7a4f;
+      --creme: #fdf8ef;
+      --areia: #f2e7d3;
+      --marrom: #5b3a21;
+      --texto: #2b2620;
+      --destaque: #c8791a;
+      --borda: #e3d5bb;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--creme);
+      color: var(--texto);
+      line-height: 1.6;
+    }
+
+    .container { width: 100%; max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+    /* ===== CABECALHO ===== */
+    header {
+      background-color: var(--verde);
+      color: var(--creme);
+      padding: 32px 0 0;
+      text-align: center;
+    }
+    .logo { font-size: 3rem; line-height: 1; }
+    header h1 { font-size: 2.2rem; letter-spacing: 1px; margin-top: 4px; }
+    .slogan { font-style: italic; color: var(--areia); margin-bottom: 20px; }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px;
+      border-top: 1px solid rgba(255,255,255,.2);
+      padding: 10px 0;
+    }
+    nav a {
+      color: var(--creme);
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-weight: 600;
+      display: block;
+    }
+    nav a:hover, nav a:focus { background-color: var(--verde-claro); }
+
+    /* ===== FAIXA DE INFORMACOES ESSENCIAIS (topo da pagina) ===== */
+    .destaques {
+      background-color: var(--areia);
+      border-bottom: 3px solid var(--borda);
+      padding: 22px 0;
+    }
+    .destaques-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+    }
+    .card-destaque {
+      flex: 1 1 260px;
+      background-color: #fff;
+      border: 1px solid var(--borda);
+      border-left: 5px solid var(--destaque);
+      border-radius: 8px;
+      padding: 16px 18px;
+    }
+    .card-destaque h3 { color: var(--verde); font-size: 1rem; text-transform: uppercase; letter-spacing: .5px; }
+    .card-destaque p { margin-top: 4px; }
+
+    /* ===== SECOES ===== */
+    section { padding: 44px 0; border-bottom: 1px solid var(--borda); }
+    section h2 {
+      color: var(--verde);
+      font-size: 1.7rem;
+      margin-bottom: 6px;
+    }
+    section h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: var(--destaque);
+      border-radius: 2px;
+      margin-top: 8px;
+    }
+    section p + p { margin-top: 12px; }
+    .intro-secao { margin-bottom: 22px; color: #5a5148; }
+
+    /* ===== TABELAS ===== */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      border: 1px solid var(--borda);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    caption {
+      caption-side: top;
+      text-align: left;
+      font-weight: 700;
+      color: var(--marrom);
+      padding-bottom: 8px;
+    }
+    th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--borda); }
+    thead th { background-color: var(--verde); color: var(--creme); }
+    tbody tr:nth-child(even) { background-color: #faf5ec; }
+    tbody tr:last-child td { border-bottom: none; }
+    .preco { font-weight: 700; color: var(--destaque); white-space: nowrap; }
+
+    /* ===== LISTAS ===== */
+    .lista-produtos {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+    .lista-produtos li {
+      flex: 1 1 220px;
+      background-color: #fff;
+      border: 1px solid var(--borda);
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+    .lista-produtos strong { color: var(--verde); display: block; }
+
+    /* ===== LOCALIZACAO / CONTATO ===== */
+    .colunas { display: flex; flex-wrap: wrap; gap: 24px; }
+    .coluna { flex: 1 1 320px; }
+
+    address {
+      font-style: normal;
+      background-color: #fff;
+      border: 1px solid var(--borda);
+      border-left: 5px solid var(--verde);
+      border-radius: 8px;
+      padding: 16px 18px;
+    }
+    .mapa {
+      width: 100%;
+      height: 260px;
+      border: 1px solid var(--borda);
+      border-radius: 8px;
+    }
+
+    .botao {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+      background-color: var(--verde);
+      color: var(--creme);
+    }
+    .botao:hover, .botao:focus { background-color: var(--verde-claro); }
+    .botao-zap { background-color: #1e8e4e; }
+    .botao-zap:hover, .botao-zap:focus { background-color: #25b35f; }
+    .botao-secundario { background-color: var(--marrom); }
+    .botao-secundario:hover, .botao-secundario:focus { background-color: #7a5230; }
+
+    .aviso {
+      background-color: #fff6e6;
+      border: 1px dashed var(--destaque);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 18px;
+      font-size: .95rem;
+    }
+
+    /* ===== RODAPE ===== */
+    footer {
+      background-color: var(--marrom);
+      color: var(--areia);
+      padding: 30px 0;
+      text-align: center;
+      font-size: .95rem;
+    }
+    footer ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 18px; margin: 14px 0; }
+    footer a { color: #fff; }
+    footer .creditos { margin-top: 14px; font-size: .85rem; color: #d8c6ad; }
+
+    /* ===== TITULOS E TEXTOS DE APOIO ===== */
+    .subtitulo { color: var(--marrom); margin-top: 28px; margin-bottom: 6px; }
+    .numero { font-size: 1.3rem; font-weight: 700; color: var(--verde); margin-top: 8px; }
+    .email { margin-top: 18px; }
+    .email a { color: var(--verde); }
+
+    /* ===== RESPONSIVO ===== */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.6rem; }
+      section { padding: 32px 0; }
+      th, td { padding: 10px; font-size: .95rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============ CABECALHO ============ -->
+  <header>
+    <div class="container">
+      <p class="logo" aria-hidden="true">🛒</p>
+      <h1>Mercearia do Seu Zé</h1>
+      <p class="slogan">Tradição em cada prateleira desde 1982</p>
+    </div>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="#sobre">A Mercearia</a></li>
+        <li><a href="#produtos">Produtos e Promoções</a></li>
+        <li><a href="#localizacao">Onde Estamos</a></li>
+        <li><a href="#horarios">Horários</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ FAIXA COM AS 3 INFORMACOES ESSENCIAIS ============ -->
+  <div class="destaques">
+    <div class="container destaques-grid">
+      <div class="card-destaque">
+        <h3>📍 Endereço</h3>
+        <p>Rua XV de Novembro, 482 — Loja 2<br>Centro, Curitiba/PR<br><small>A 50 metros do Calçadão da XV</small></p>
+      </div>
+      <div class="card-destaque">
+        <h3>🕗 Horário de funcionamento</h3>
+        <p>Segunda a sexta: <strong>8h às 19h</strong><br>Sábado: <strong>8h às 14h</strong><br><small>Domingo: fechado</small></p>
+      </div>
+      <div class="card-destaque">
+        <h3>💬 Fale com a gente</h3>
+        <p>WhatsApp: <strong>(41) 99123-4567</strong><br>Telefone: <strong>(41) 3222-1982</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ CONTEUDO PRINCIPAL ============ -->
+  <main>
+
+    <!-- ---- Boas-vindas / apresentacao da loja ---- -->
+    <section id="sobre">
+      <div class="container">
+        <h2>Bem-vindo à nossa mercearia</h2>
+        <p class="intro-secao">Há mais de quatro décadas no coração do Centro Histórico de Curitiba.</p>
+        <p>Em 1982, o Seu Zé levantou pela primeira vez as portas de ferro desta mercearia, a poucos passos do Calçadão da XV de Novembro. De lá para cá muita coisa mudou na cidade, mas aqui dentro continua o cheiro do <strong>café moído na hora</strong>, as prateleiras de madeira nobre bem organizadas e o atendimento olho no olho.</p>
+        <p>Somos referência em <strong>produtos coloniais vindos do interior do Paraná</strong>: queijos, salames, geleias, mel, farinhas e conservas que não se acham em supermercado grande. Tudo escolhido por quem conhece cada produtor pelo nome.</p>
+        <p>Mora, estuda ou trabalha no Centro? Passe aqui e descubra que dá para fazer a compra da semana perto de casa, com preço justo e sem fila.</p>
+      </div>
+    </section>
+
+    <!-- ---- Produtos e promocoes: TABELA + LISTA ---- -->
+    <section id="produtos">
+      <div class="container">
+        <h2>Produtos e promoções da semana</h2>
+        <p class="intro-secao">Ofertas válidas enquanto durarem os estoques.</p>
+
+        <table>
+          <caption>Promoções da semana, de segunda a sábado</caption>
+          <thead>
+            <tr>
+              <th scope="col">Produto</th>
+              <th scope="col">Descrição</th>
+              <th scope="col">Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Café moído na hora</td>
+              <td>Grão especial torrado no Paraná, pacote de 500 g</td>
+              <td class="preco">R$ 24,90</td>
+            </tr>
+            <tr>
+              <td>Queijo colonial</td>
+              <td>Curado artesanal de Witmarsum, por kg</td>
+              <td class="preco">R$ 58,00</td>
+            </tr>
+            <tr>
+              <td>Salame italiano</td>
+              <td>Produção artesanal da Colônia Murici, por kg</td>
+              <td class="preco">R$ 72,00</td>
+            </tr>
+            <tr>
+              <td>Geleia caseira</td>
+              <td>Sabores amora, figo e goiaba, pote de 320 g</td>
+              <td class="preco">R$ 18,50</td>
+            </tr>
+            <tr>
+              <td>Cesta do estudante</td>
+              <td>Arroz, feijão, macarrão, molho, café e açúcar</td>
+              <td class="preco">R$ 69,90</td>
+            </tr>
+            <tr>
+              <td>Pão caseiro</td>
+              <td>Assado todo dia às 7h, unidade de 500 g</td>
+              <td class="preco">R$ 12,00</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 class="subtitulo">O que você também encontra aqui</h3>
+        <ul class="lista-produtos">
+          <li><strong>Hortifruti</strong> Frutas, verduras e legumes frescos, recebidos toda manhã.</li>
+          <li><strong>Mercearia seca</strong> Arroz, feijão, farinhas, açúcar, óleo e enlatados.</li>
+          <li><strong>Frios e laticínios</strong> Queijos, presuntos, manteiga e iogurtes artesanais.</li>
+          <li><strong>Padaria</strong> Pão caseiro, cuca, bolo de fubá e biscoitos coloniais.</li>
+          <li><strong>Bebidas</strong> Sucos naturais, vinhos coloniais, cervejas e água mineral.</li>
+          <li><strong>Conveniência</strong> Produtos de limpeza, higiene e itens de última hora.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ---- Localizacao com indicacao no mapa ---- -->
+    <section id="localizacao">
+      <div class="container">
+        <h2>Onde estamos</h2>
+        <p class="intro-secao">No Centro Histórico, a poucos passos do Calçadão da XV de Novembro.</p>
+
+        <div class="colunas">
+          <div class="coluna">
+            <address>
+              <strong>Mercearia do Seu Zé</strong><br>
+              Rua XV de Novembro, 482 — Loja 2<br>
+              Centro — Curitiba/PR<br>
+              CEP 80020-310<br><br>
+              <strong>Ponto de referência:</strong><br>
+              A 50 metros do Calçadão da XV, ao lado da Praça Santos Andrade.<br><br>
+              <strong>Como chegar:</strong><br>
+              Cinco minutos a pé da Praça Tiradentes e das linhas que saem do Terminal Central.
+            </address>
+            <a class="botao" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+XV+de+Novembro,+Centro,+Curitiba+-+PR" target="_blank" rel="noopener">Abrir no Google Maps</a>
+          </div>
+          <div class="coluna">
+            <iframe
+              class="mapa"
+              src="https://www.google.com/maps?q=Rua+XV+de+Novembro,+Centro,+Curitiba+-+PR&amp;output=embed"
+              title="Mapa com a localização da Mercearia do Seu Zé no Centro de Curitiba"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- Horario de atendimento ---- -->
+    <section id="horarios">
+      <div class="container">
+        <h2>Horário de atendimento</h2>
+        <p class="intro-secao">Atendemos de segunda a sábado, sem fechar para o almoço.</p>
+
+        <table>
+          <caption>Horários da semana</caption>
+          <thead>
+            <tr>
+              <th scope="col">Dia</th>
+              <th scope="col">Abertura</th>
+              <th scope="col">Fechamento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Segunda-feira</th><td><time datetime="08:00">8h</time></td><td><time datetime="19:00">19h</time></td></tr>
+            <tr><th scope="row">Terça-feira</th><td><time datetime="08:00">8h</time></td><td><time datetime="19:00">19h</time></td></tr>
+            <tr><th scope="row">Quarta-feira</th><td><time datetime="08:00">8h</time></td><td><time datetime="19:00">19h</time></td></tr>
+            <tr><th scope="row">Quinta-feira</th><td><time datetime="08:00">8h</time></td><td><time datetime="19:00">19h</time></td></tr>
+            <tr><th scope="row">Sexta-feira</th><td><time datetime="08:00">8h</time></td><td><time datetime="19:00">19h</time></td></tr>
+            <tr><th scope="row">Sábado</th><td><time datetime="08:00">8h</time></td><td><time datetime="14:00">14h</time></td></tr>
+            <tr><th scope="row">Domingo</th><td colspan="2">Fechado</td></tr>
+          </tbody>
+        </table>
+
+        <p class="aviso">⚠️ <strong>Feriados:</strong> em feriados nacionais atendemos das 8h às 12h. Confirme pelo WhatsApp antes de vir.</p>
+      </div>
+    </section>
+
+    <!-- ---- Formas de contato ---- -->
+    <section id="contato">
+      <div class="container">
+        <h2>Fale com a gente</h2>
+        <p class="intro-secao">Mande sua lista pelo WhatsApp e separamos tudo para a retirada.</p>
+
+        <div class="colunas">
+          <div class="coluna">
+            <h3 class="subtitulo">WhatsApp</h3>
+            <p>Peça sua lista, tire dúvidas sobre produtos ou confirme se um item está disponível.</p>
+            <p class="numero">(41) 99123-4567</p>
+            <a class="botao botao-zap" href="https://wa.me/5541991234567?text=Ol%C3%A1!%20Vi%20o%20site%20da%20mercearia%20e%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          </div>
+          <div class="coluna">
+            <h3 class="subtitulo">Telefone e e-mail</h3>
+            <p>Prefere ligar? O Seu Zé atende pessoalmente durante o horário da loja.</p>
+            <p class="numero">(41) 3222-1982</p>
+            <a class="botao botao-secundario" href="tel:+554132221982">Ligar agora</a>
+            <p class="email">E-mail: <a href="mailto:contato@merceariadoseuze.com.br">contato@merceariadoseuze.com.br</a></p>
+          </div>
+        </div>
+
+        <p class="aviso">🛵 <strong>Entregas:</strong> entrega gratuita no Centro e no Alto da XV para compras acima de R$ 80,00. Combine pelo WhatsApp.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ RODAPE ============ -->
+  <footer>
+    <div class="container">
+      <p><strong>Mercearia do Seu Zé</strong> — Rua XV de Novembro, 482, Centro, Curitiba/PR</p>
+      <ul>
+        <li><a href="#" rel="noopener">Instagram</a></li>
+        <li><a href="#" rel="noopener">Facebook</a></li>
+        <li><a href="https://wa.me/5541991234567" target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul>
+      <p>&copy; 2026 Mercearia do Seu Zé. Todos os direitos reservados.</p>
+      <p class="creditos">Desenvolvido por Rennan e Paulo Geandre — projeto acadêmico de HTML5.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
