@@ -1,13 +1,13 @@
-# 🛒 Desafio Mercearia do Seu Zé
+#  Desafio Mercearia do Seu Zé
 
 Presença digital da **Mercearia do Seu Zé** — mercearia tradicional com mais de 40 anos no Centro Histórico de Curitiba.
 
 Projeto acadêmico de **HTML5 + Git/GitHub** desenvolvido a partir do estudo de caso proposto em aula.
 
-👥 **Integrantes:** Rennan Jackowski Pereira · Paulo Geandre Pinto  
-🎓 **Curso:** Análise e Desenvolvimento de Sistemas — Universidade Positivo
+ **Integrantes:** Rennan Jackowski Pereira · Paulo Geandre Pinto  
+ **Curso:** Análise e Desenvolvimento de Sistemas — Universidade Positivo
 
-🔗 **Site publicado:** https://rennanjkw2019-coder.github.io/desafio-mercearia-seu-ze/
+ **Site publicado:** https://rennanjkw2019-coder.github.io/desafio-mercearia-seu-ze/
 
 ---
 
@@ -60,47 +60,11 @@ Currículo e perfil profissional dos desenvolvedores neste `README.md` — veja 
 
 Wireframe de baixa fidelidade definido antes de escrever qualquer código:
 
-```
-┌──────────────────────────────────────────────┐
-│               🛒 LOGO / NOME                  │  ← CABEÇALHO
-│        Mercearia do Seu Zé                    │
-│    "Tradição em cada prateleira desde 1982"   │
-├──────────────────────────────────────────────┤
-│  Sobre │ Produtos │ Local │ Horários │ Contato│  ← MENU
-├──────────────────────────────────────────────┤
-│ ┌──────────┐ ┌──────────┐ ┌──────────┐       │
-│ │📍ENDEREÇO│ │🕗HORÁRIO │ │💬CONTATO │       │  ← 3 INFOS ESSENCIAIS
-│ │ Rua XV   │ │ 8h-19h   │ │ WhatsApp │       │     (sem rolar a tela)
-│ └──────────┘ └──────────┘ └──────────┘       │
-├──────────────────────────────────────────────┤
-│  BEM-VINDO À NOSSA MERCEARIA                  │
-│  Texto de apresentação da loja e da           │  ← CONTEÚDO
-│  história de mais de 40 anos.                 │
-├──────────────────────────────────────────────┤
-│  PRODUTOS E PROMOÇÕES DA SEMANA               │
-│  ┌────────────┬────────────┬────────┐        │
-│  │ Produto    │ Descrição  │ Preço  │        │  ← TABELA
-│  ├────────────┼────────────┼────────┤        │
-│  │ Café       │ 500 g      │ R$ ... │        │
-│  └────────────┴────────────┴────────┘        │
-│  • Hortifruti  • Frios  • Padaria ...         │  ← LISTA
-├──────────────────────────────────────────────┤
-│  ONDE ESTAMOS                                 │
-│  ┌───────────────┐  ┌───────────────┐        │
-│  │ Endereço      │  │     MAPA      │        │
-│  │ Referência    │  │   (Google)    │        │
-│  │ [Ver no Maps] │  │               │        │
-│  └───────────────┘  └───────────────┘        │
-├──────────────────────────────────────────────┤
-│  HORÁRIO DE ATENDIMENTO                       │
-│  Tabela: dia | abertura | fechamento          │
-├──────────────────────────────────────────────┤
-│  FALE COM A GENTE                             │
-│  [Chamar no WhatsApp]   [Ligar agora]         │
-├──────────────────────────────────────────────┤
-│  © 2026 · Instagram · Facebook · WhatsApp     │  ← RODAPÉ
-└──────────────────────────────────────────────┘
-```
+Anexado no Blackboard.
+
+
+
+
 
 ### Hierarquia visual — o que chama atenção primeiro
 
@@ -128,7 +92,7 @@ No celular as colunas empilham automaticamente e a ordem vira exatamente a ordem
 
 ---
 
-## 🗂️ Estrutura do projeto
+##  Estrutura do projeto
 
 ```
 desafio-mercearia-seu-ze/
@@ -137,14 +101,14 @@ desafio-mercearia-seu-ze/
 └── .gitignore    → arquivos ignorados pelo Git
 ```
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - **HTML5** com tags semânticas
 - **CSS3** — Flexbox, variáveis CSS e media queries
 - **JSON-LD / schema.org** para SEO local
 - **Git** e **GitHub** para versionamento
 
-## ▶️ Como visualizar
+##  Como visualizar
 
 1. Clone o repositório:
    ```bash
@@ -154,7 +118,7 @@ desafio-mercearia-seu-ze/
 
 ---
 
-## 👥 Quem desenvolveu
+##  Quem desenvolveu
 
 > Conforme solicitado pelo Seu Zé e pelo Lucas, esta seção apresenta o perfil profissional da dupla responsável pelo projeto.
 
@@ -194,7 +158,7 @@ Acredito que um bom site começa no papel. Participei da definição do público
 
 ---
 
-## 📅 Status da entrega
+##  Status da entrega
 
 - [x] Passo 1 — Definição do objetivo, público-alvo e informações essenciais
 - [x] Passo 2 — Arquitetura da informação e wireframe
