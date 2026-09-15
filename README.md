@@ -7,7 +7,7 @@ Projeto acadêmico de **HTML5 + Git/GitHub** desenvolvido a partir do estudo de 
 👥 **Integrantes:** Rennan Jackowski Pereira · Paulo Geandre Pinto  
 🎓 **Curso:** Análise e Desenvolvimento de Sistemas — Universidade Positivo
 
-🔗 **Site publicado:** _(preencher depois de ativar o GitHub Pages)_
+🔗 **Site publicado:** https://rennanjkw2019-coder.github.io/desafio-mercearia-seu-ze/
 
 ---
 
