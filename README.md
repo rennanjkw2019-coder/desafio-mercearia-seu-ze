@@ -4,6 +4,9 @@ Presença digital da **Mercearia do Seu Zé** — mercearia tradicional com mais
 
 Projeto acadêmico de **HTML5 + Git/GitHub** desenvolvido a partir do estudo de caso proposto em aula.
 
+👥 **Integrantes:** Rennan Jackowski Pereira · Paulo Geandre Pinto  
+🎓 **Curso:** Análise e Desenvolvimento de Sistemas — Universidade Positivo
+
 🔗 **Site publicado:** _(preencher depois de ativar o GitHub Pages)_
 
 ---
@@ -145,7 +148,7 @@ desafio-mercearia-seu-ze/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/USUARIO/desafio-mercearia-seu-ze.git
+   git clone https://github.com/rennanjkw2019-coder/desafio-mercearia-seu-ze.git
    ```
 2. Abra o arquivo `index.html` no navegador (duplo clique já funciona).
 
@@ -155,9 +158,9 @@ desafio-mercearia-seu-ze/
 
 > Conforme solicitado pelo Seu Zé e pelo Lucas, esta seção apresenta o perfil profissional da dupla responsável pelo projeto.
 
-### Rennan `[SOBRENOME]`
+### Rennan Jackowski Pereira
 
-**Formação atual:** `[Curso]` — `[Instituição]` — `[semestre/ano]`
+**Formação atual:** Análise e Desenvolvimento de Sistemas — Universidade Positivo
 
 **Competências técnicas em desenvolvimento:**
 - HTML5 semântico e estruturação de páginas
@@ -166,17 +169,16 @@ desafio-mercearia-seu-ze/
 - Lógica de programação e boas práticas de código legível
 
 **Perfis profissionais:**
-- GitHub: https://github.com/rennanjkw2019-coder
-- LinkedIn: `[link do LinkedIn]`
+- GitHub: [@rennanjkw2019-coder](https://github.com/rennanjkw2019-coder)
 
 **Motivação:**
 Escolhi tratar este desafio como um problema de negócio, não apenas como um exercício de código. Antes de escrever a primeira tag, analisei quem é o cliente do Seu Zé hoje, quem ele precisa alcançar e qual é a menor solução possível que resolve isso sem quebrar a rotina de uma loja com 40 anos de história. Entrego uma página enxuta, rápida e pensada para ser encontrada no Google — porque o problema da mercearia não é falta de qualidade, é falta de visibilidade.
 
 ---
 
-### Paulo Geandre `[SOBRENOME]`
+### Paulo Geandre Pinto
 
-**Formação atual:** `[Curso]` — `[Instituição]` — `[semestre/ano]`
+**Formação atual:** Análise e Desenvolvimento de Sistemas — Universidade Positivo
 
 **Competências técnicas em desenvolvimento:**
 - HTML5 semântico e acessibilidade básica
@@ -185,8 +187,7 @@ Escolhi tratar este desafio como um problema de negócio, não apenas como um ex
 - Organização de conteúdo e arquitetura da informação
 
 **Perfis profissionais:**
-- GitHub: `[link do GitHub]`
-- LinkedIn: `[link do LinkedIn]`
+- GitHub: [@paulogeandre](https://github.com/paulogeandre)
 
 **Motivação:**
 Acredito que um bom site começa no papel. Participei da definição do público-alvo e do wireframe que organizou a hierarquia da página, garantindo que as três informações essenciais aparecessem antes de qualquer rolagem. Meu compromisso neste projeto foi com a clareza: qualquer pessoa, de qualquer idade, precisa achar o endereço, o horário e o contato da mercearia em poucos segundos.
