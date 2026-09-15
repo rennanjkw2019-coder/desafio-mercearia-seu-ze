@@ -11,7 +11,7 @@ Projeto acadêmico de **HTML5 + Git/GitHub** desenvolvido a partir do estudo de 
 
 ---
 
-## 📌 Passo 1 — Definição do objetivo
+##  Passo 1 — Definição do objetivo
 
 ### Objetivo principal da página
 
@@ -56,7 +56,7 @@ Currículo e perfil profissional dos desenvolvedores neste `README.md` — veja 
 
 ---
 
-## 🧭 Passo 2 — Arquitetura da informação e wireframe
+##  Passo 2 — Arquitetura da informação e wireframe
 
 Wireframe de baixa fidelidade definido antes de escrever qualquer código:
 
@@ -113,7 +113,7 @@ No celular as colunas empilham automaticamente e a ordem vira exatamente a ordem
 
 ---
 
-## 💡 Justificativa da solução escolhida
+##  Justificativa da solução escolhida
 
 | Decisão | Por quê |
 |---|---|
